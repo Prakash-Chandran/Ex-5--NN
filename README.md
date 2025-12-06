@@ -34,6 +34,8 @@ Step 6: Test the network for accuracy<br>
 Step 7: Plot the Input space and Hidden space of RBF NN for XOR classification.
 
 <H3>PROGRAM:</H3>
+```
+
 import numpy as np
 import matplotlib.pyplot as plt
 def gaussian_rbf(x, landmark, gamma=1):
@@ -93,6 +95,7 @@ print(f"Input:{np.array([0, 1])}, Predicted: {predict_matrix(np.array([0, 1]), w
 print(f"Input:{np.array([1, 0])}, Predicted: {predict_matrix(np.array([1, 0]), w)}")
 print(f"Input:{np.array([1, 1])}, Predicted: {predict_matrix(np.array([1, 1]), w)}")
 
+```
 
 <H3>OUTPUT:</H3>
 <img width="1140" height="608" alt="image" src="https://github.com/user-attachments/assets/db9db274-442c-4f8f-8008-402409363b45" />
